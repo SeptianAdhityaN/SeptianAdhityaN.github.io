@@ -20,7 +20,7 @@ body {
 
 @layer components {
   .bg-blur {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(0, 0, 0, .7);
     backdrop-filter: blur(8px);
   }
 
