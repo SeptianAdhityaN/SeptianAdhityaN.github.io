@@ -613,10 +613,6 @@ video {
   z-index: 2;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -666,12 +662,12 @@ video {
   height: 100vh;
 }
 
-.w-96{
-  width: 24rem;
-}
-
 .w-\[150px\]{
   width: 150px;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .w-\[400px\]{
@@ -684,22 +680,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-auto{
-  width: auto;
-}
-
-.w-\[auto\]{
-  width: auto;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[300px\]{
-  width: 300px;
 }
 
 .max-w-\[600px\]{
@@ -944,30 +924,6 @@ body {
 }
 
 @media (min-width: 768px){
-  .md\:m-auto{
-    margin: auto;
-  }
-
-  .md\:mr-\[100px\]{
-    margin-right: 100px;
-  }
-
-  .md\:mr-\[\]{
-    margin-right: ;
-  }
-
-  .md\:mr-\[200px\]{
-    margin-right: 200px;
-  }
-
-  .md\:ml-\[\]{
-    margin-left: ;
-  }
-
-  .md\:ml-\[100px\]{
-    margin-left: 100px;
-  }
-
   .md\:justify-start{
     justify-content: flex-start;
   }
@@ -980,10 +936,6 @@ body {
   .md\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .md\:pr-\[200px\]{
-    padding-right: 200px;
   }
 
   .md\:text-left{
@@ -1015,12 +967,12 @@ body {
     margin-bottom: 1.5rem;
   }
 
-  .lg\:mt-0{
-    margin-top: 0px;
-  }
-
   .lg\:ml-\[100px\]{
     margin-left: 100px;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
   }
 
   .lg\:block{
