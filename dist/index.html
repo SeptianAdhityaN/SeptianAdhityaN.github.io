@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Septian Adhitya Nugroho</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <header>
+      <nav class="z-[100]">
+        <div
+          class="navbar w-full justify-between lg:items-center p-10 text-lg fixed z-[2] bg-primary lg:bg-transparent scrolled"
+        >
+          <div class="flex items-center justify-between lg:mx-24 md:px-8">
+            <a href="" class="text-2xl font-bold md:text-3xl"
+              ><span class="text-secondary">A</span>sep.</a
+            >
+
+            <ul class="items-center justify-center hidden lg:flex">
+              <li class="ml-8 hover:text-secondary">
+                <a href="#home">Home</a>
+              </li>
+              <li class="ml-8 hover:text-secondary">
+                <a href="#about">About</a>
+              </li>
+              <li class="ml-8 hover:text-secondary">
+                <a href="#education">Education</a>
+              </li>
+              <li class="ml-8 hover:text-secondary">
+                <a href="#skills">Skills</a>
+              </li>
+              <li class="ml-8 hover:text-secondary">
+                <a href="#project">Project</a>
+              </li>
+            </ul>
+
+            <button
+              class="hidden lg:block py-2 px-4 rounded-[5px] bg-secondary hover:bg-primary hover:border hover:border-secondary duration-500 ease-in"
+            >
+              <a class="p-2 text-xl font-semibold text-center" href="#"
+                >Contact</a
+              >
+            </button>
+
+            <ion-icon
+              class="block text-3xl lg:hidden md:text-4xl"
+              name="menu-outline"
+              onclick="Menu(this)"
+            ></ion-icon>
+          </div>
+        </div>
+
+        <div
+          class="dropdown-menu lg:hidden flex bg-blur text-center items-center justify-center z-[1] w-full left-0 fixed py-2 opacity-0 top-[-1000px] transition-all ease-in duration-500"
+        >
+          <ul>
+            <li
+              class="my-4 text-xl duration-300 text-primary hover:text-secondary"
+            >
+              <a href="#home">Home</a>
+            </li>
+            <li
+              class="my-4 text-xl duration-300 text-primary hover:text-secondary"
+            >
+              <a href="#about">About</a>
+            </li>
+            <li
+              class="my-4 text-xl duration-300 text-primary hover:text-secondary"
+            >
+              <a href="#education">Education</a>
+            </li>
+            <li
+              class="my-4 text-xl duration-300 text-primary hover:text-secondary"
+            >
+              <a href="#skills">Skills</a>
+            </li>
+            <li
+              class="my-4 text-xl duration-300 text-primary hover:text-secondary"
+            >
+              <a href="#project">Project</a>
+            </li>
+
+            <button
+              class="px-4 py-2 my-4 duration-500 ease-in rounded-full bg-secondary hover:bg-primary hover:border hover:border-secondary"
+            >
+              <a class="p-2 text-xl font-semiboldtext-center" href="#"
+                >Contact</a
+              >
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- HERO SECTION START -->
+    <section id="home" class="flex h-screen items-center py-0 px-[10%]">
+      <div
+        class="text-center md:text-left max-w-[600px] mt-[100px]"
+      >
+        <h1 class="mb-3 text-2xl font-bold md:text-3xl">
+          Hello, I'm Septian Adhitya Nugroho
+        </h1>
+        <h3 class="text-xl font-bold text-secondary">
+          BEGINNER FRONTEND DEVELOPER
+        </h3>
+        <p class="pt-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis a
+          totam corporis animi, minus iusto, nam odio quod nobis libero optio
+          deserunt nemo reprehenderit facere rerum debitis.
+        </p>
+        <div
+          class="flex items-center justify-center w-full py-2 my-4 md:justify-start"
+        >
+          <a
+            class="px-4 py-2 duration-500 ease-in-out border rounded-md border-secondary hover:bg-secondary"
+            href="#"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- ABOUT SECTION START -->
+    <section id="about" class="w-full h-screen">
+      <div class="flex flex-wrap items-center justify-center w-full h-screen">
+        <img
+          class="w-[300px] rounded-full"
+          src="images/profile.png"
+          alt=""
+        />
+        <div class="max-w-[600px] flex flex-col lg:ml-[100px]">
+          <h2 class="mb-4 text-2xl font-bold text-center lg:text-left lg:mb-2">
+            About Me
+          </h2>
+          <p class="mb-6 text-center md:px-0 px-[10%] lg:text-left">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus repudiandae consequatur dolor dicta nobis voluptatem
+            beatae ipsum, non dolorem, numquam fuga iure nulla aperiam ex
+            deserunt, veniam dignissimos sunt reiciendis!
+          </p>
+          <button class="flex items-center justify-center lg:justify-start">
+            <a
+              class="font-semibold text-center bg-secondary hover:bg-primary hover:border hover:border-secondary duration-500 ease-in py-2 w-[150px] rounded-full"
+              href="#"
+              >Let's Connect</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- EEDUCATION SECTION START -->
+    <section id="education" class="w-full h-screen">
+      <div class="flex flex-col items-center justify-center w-full h-screen">
+        <header class="text-3xl font-bold top-[-100px] lg:mt-0 relative mt-[300px]">
+          <h2>Education</h2>
+        </header>
+        <div class="flex flex-col items-start w-full pl-[10%] lg:pl-0 lg:items-center lg:justify-center lg:gap-4 lg:flex-row">
+          <div class="border-l-[2px] border-l-gray-400 dot-decor relative group w-[400px]">
+            <div class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out group-hover:bg-blur h-[200px] lg:shadow-md">
+              <img class="w-[75px] rounded-full mb-4 hover:scale-105 transition duration-500" src="images/logo-smasa.png" alt="">
+              <h2 class="font-bold">SMA Negeri 1 Nganjuk</h2>
+              <h3>Graduate in Mathematics and Science</h3>
+              <h4>2020 - 2023</h4>
+            </div>
+          </div>
+          <div class="border-l-[2px] border-l-gray-400 dot-decor relative group w-[400px]">
+            <div class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out group-hover:bg-blur h-[200px] lg:shadow-md">
+              <img class="w-[75px] rounded-full mb-4 hover:scale-105 transition duration-500" src="images/logo-unesa.png" alt="">
+              <h2 class="font-bold">Universitas Negeri Surabaya</h2>
+              <h3>Student of Informatics Engineering</h3>
+              <h4>2023 - Now</h4>
+            </div>
+          </div>
+          <div class="border-l-[2px] border-l-gray-400 dot-decor relative group w-[400px]">
+            <div class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out group-hover:bg-blur h-[200px] lg:shadow-md">
+              <img class="w-[75px] rounded-md lg:mb-6 mb-4 hover:scale-105 transition duration-500" src="images/logo-dbs.png" alt="">
+              <h2 class="font-bold">DBS Foundation Coding Camp 2024</h2>
+              <h3>Frontend Web Developer</h3>
+              <h4>2024</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EEDUCATION SECTION END -->
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
