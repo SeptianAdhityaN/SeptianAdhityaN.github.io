@@ -601,20 +601,16 @@ video {
   left: 5%;
 }
 
+.right-0{
+  right: 0px;
+}
+
 .top-0{
   top: 0px;
 }
 
 .top-\[-100px\]{
   top: -100px;
-}
-
-.right-\[30px\]{
-  right: 30px;
-}
-
-.right-0{
-  right: 0px;
 }
 
 .z-\[100\]{
@@ -629,20 +625,12 @@ video {
   z-index: 2;
 }
 
-.z-\[3\]{
-  z-index: 3;
+.z-\[98\]{
+  z-index: 98;
 }
 
 .z-\[99\]{
   z-index: 99;
-}
-
-.z-\[\]{
-  z-index: ;
-}
-
-.z-\[-1\]{
-  z-index: -1;
 }
 
 .my-4{
@@ -738,10 +726,6 @@ video {
   max-width: 1280px;
 }
 
-.border-separate{
-  border-collapse: separate;
-}
-
 .flex-col{
   flex-direction: column;
 }
@@ -804,15 +788,6 @@ video {
 .bg-secondary{
   --tw-bg-opacity: 1;
   background-color: rgb(0 166 251 / var(--tw-bg-opacity));
-}
-
-.bg-transparent{
-  background-color: transparent;
-}
-
-.bg-red-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\/dist\/images\/bg\.png\)\]{
@@ -929,10 +904,6 @@ video {
   opacity: 0.8;
 }
 
-.opacity-100{
-  opacity: 1;
-}
-
 .transition{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1017,16 +988,8 @@ body {
 }
 
 @media (min-width: 768px){
-  .md\:relative{
-    position: relative;
-  }
-
   .md\:justify-start{
     justify-content: flex-start;
-  }
-
-  .md\:bg-transparent{
-    background-color: transparent;
   }
 
   .md\:px-0{
@@ -1056,11 +1019,6 @@ body {
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:hover\:bg-primary:hover{
-    --tw-bg-opacity: 1;
-    background-color: rgb(5 25 35 / var(--tw-bg-opacity));
   }
 }
 
@@ -1134,18 +1092,10 @@ body {
     text-align: left;
   }
 
-  .lg\:opacity-80{
-    opacity: 0.8;
-  }
-
   .lg\:shadow-md{
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
-  .lg\:duration-\[3s\]{
-    transition-duration: 3s;
   }
 
   .lg\:hover\:bg-primary:hover{
