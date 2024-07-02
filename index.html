@@ -53,6 +53,7 @@
             </button>
 
             <ion-icon
+            id="icon"
               class="block text-3xl lg:hidden md:text-4xl"
               name="menu-outline"
               onclick="Menu(this)"
@@ -65,25 +66,25 @@
         >
           <ul>
             <li class="my-4 text-xl duration-300 hover:text-secondary">
-              <a href="#home">Home</a>
+              <a onclick="Dropdown(this)" href="#home">Home</a>
             </li>
             <li class="my-4 text-xl duration-300 hover:text-secondary">
-              <a href="#about">About</a>
+              <a onclick="Dropdown(this)" href="#about">About</a>
             </li>
             <li class="my-4 text-xl duration-300 hover:text-secondary">
-              <a href="#education">Education</a>
+              <a onclick="Dropdown(this)" href="#education">Education</a>
             </li>
             <li class="my-4 text-xl duration-300 hover:text-secondary">
-              <a href="#skills">Skills</a>
+              <a onclick="Dropdown(this)" href="#skills">Skills</a>
             </li>
             <li class="my-4 text-xl duration-300 hover:text-secondary">
-              <a href="#project">Project</a>
+              <a onclick="Dropdown(this)" href="#project">Project</a>
             </li>
 
             <button
               class="px-4 py-2 my-4 duration-500 ease-in rounded-full bg-secondary hover:bg-primary hover:border hover:border-secondary"
             >
-              <a class="p-2 text-xl font-semiboldtext-center" href="https://www.instagram.com/septianadhty?igsh=MTR6NXgxbjJxaGNw" target="_blank"
+              <a class="p-2 text-xl font-semiboldtext-center" onclick="Dropdown(this)" href="https://www.instagram.com/septianadhty?igsh=MTR6NXgxbjJxaGNw" target="_blank"
                 >Contact</a
               >
             </button>
@@ -131,7 +132,7 @@
           src="dist/images/photo.png"
           alt=""
         />
-        <div class="flex flex-col lg:ml-[50px]">
+        <div class="flex flex-col lg:ml-[50px] py-4">
           <h2 class="mb-4 text-2xl font-bold text-center lg:text-left lg:mb-2">
             About Me
           </h2>
@@ -162,13 +163,13 @@
           <h2>Education</h2>
         </header>
         <div
-          class="flex flex-col items-start w-full pl-[10%] lg:pl-0 lg:items-center lg:justify-center lg:gap-4 lg:flex-row"
+          class="flex flex-col items-start w-full pl-[10%] lg:pl-0 lg:items-center lg:justify-around lg:flex-row"
         >
           <div
-            class="border-l-[2px] border-l-gray-400 dot-decor relative w-[400px]"
+            class="border-l-[2px] border-l-gray-400 dot-decor relative"
           >
             <div
-              class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out h-[200px] lg:shadow-md"
+              class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out h-[200px]"
             >
               <img
                 class="w-[75px] rounded-full mb-4 hover:scale-105 transition duration-500"
@@ -181,10 +182,10 @@
             </div>
           </div>
           <div
-            class="border-l-[2px] border-l-gray-400 dot-decor relative w-[400px]"
+            class="border-l-[2px] border-l-gray-400 dot-decor relative"
           >
             <div
-              class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out h-[200px] lg:shadow-md"
+              class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out h-[200px]"
             >
               <img
                 class="w-[75px] rounded-full mb-4 hover:scale-105 transition duration-500"
@@ -197,10 +198,10 @@
             </div>
           </div>
           <div
-            class="border-l-[2px] border-l-gray-400 dot-decor relative w-[400px]"
+            class="border-l-[2px] border-l-gray-400 dot-decor relative"
           >
             <div
-              class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out h-[200px] lg:shadow-md"
+              class="pt-4 pb-8 pl-6 transition duration-500 ease-in-out h-[200px]"
             >
               <img
                 class="w-[75px] rounded-md lg:mb-6 mb-4 hover:scale-105 transition duration-500"
