@@ -20,8 +20,8 @@ body {
 
 @layer components {
   .bg-blur {
-    background-color: rgba(0, 0, 0, .7);
-    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);
   }
 
   .dot-decor::before {
