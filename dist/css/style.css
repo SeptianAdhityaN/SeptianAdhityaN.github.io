@@ -613,6 +613,18 @@ video {
   top: -100px;
 }
 
+.top-\[\]{
+  top: ;
+}
+
+.top-\[100px\]{
+  top: 100px;
+}
+
+.top-\[120px\]{
+  top: 120px;
+}
+
 .z-\[100\]{
   z-index: 100;
 }
@@ -631,6 +643,10 @@ video {
 
 .z-\[99\]{
   z-index: 99;
+}
+
+.m-auto{
+  margin: auto;
 }
 
 .my-4{
@@ -662,20 +678,40 @@ video {
   margin-top: 100px;
 }
 
-.mt-\[300px\]{
-  margin-top: 300px;
-}
-
-.mt-4{
-  margin-top: 1rem;
-}
-
 .mt-\[120px\]{
   margin-top: 120px;
 }
 
 .mt-\[400px\]{
   margin-top: 400px;
+}
+
+.mb-auto{
+  margin-bottom: auto;
+}
+
+.mb-96{
+  margin-bottom: 24rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mt-\[\]{
+  margin-top: ;
+}
+
+.mt-auto{
+  margin-top: auto;
+}
+
+.mt-\[150px\]{
+  margin-top: 150px;
 }
 
 .block{
@@ -702,12 +738,12 @@ video {
   height: 100vh;
 }
 
-.w-\[150px\]{
-  width: 150px;
+.h-auto{
+  height: auto;
 }
 
-.w-\[200px\]{
-  width: 200px;
+.w-\[150px\]{
+  width: 150px;
 }
 
 .w-\[75px\]{
@@ -802,9 +838,14 @@ video {
   background-color: rgb(0 166 251 / var(--tw-bg-opacity));
 }
 
-.bg-red-500{
+.bg-red-100{
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+
+.bg-green-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\/dist\/images\/bg\.png\)\]{
@@ -876,6 +917,10 @@ video {
   padding-top: 1rem;
 }
 
+.pb-96{
+  padding-bottom: 24rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -919,6 +964,10 @@ video {
 
 .opacity-80{
   opacity: 0.8;
+}
+
+.mix-blend-screen{
+  mix-blend-mode: screen;
 }
 
 .transition{
@@ -1005,18 +1054,6 @@ body {
 }
 
 @media (min-width: 768px){
-  .md\:mt-0{
-    margin-top: 0px;
-  }
-
-  .md\:w-full{
-    width: 100%;
-  }
-
-  .md\:max-w-xs{
-    max-width: 20rem;
-  }
-
   .md\:justify-start{
     justify-content: flex-start;
   }
@@ -1047,6 +1084,14 @@ body {
 }
 
 @media (min-width: 1024px){
+  .lg\:top-0{
+    top: 0px;
+  }
+
+  .lg\:top-\[-100px\]{
+    top: -100px;
+  }
+
   .lg\:z-\[1\]{
     z-index: 1;
   }
@@ -1082,14 +1127,6 @@ body {
 
   .lg\:hidden{
     display: none;
-  }
-
-  .lg\:w-full{
-    width: 100%;
-  }
-
-  .lg\:max-w-xs{
-    max-width: 20rem;
   }
 
   .lg\:flex-row{

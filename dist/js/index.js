@@ -10,5 +10,5 @@ function Dropdown(e) {
   let list = document.querySelector(".dropdown-menu");
   let icon = document.querySelector("#icon");
 
-    e.target = ((icon.name = "menu-outline"), list.classList.remove('mt-[100px]'), list.classList.remove('opacity-100'), list.classList.add('mt-[-1000px]'), list.classList.add('opacity-0'))
+    e = ((icon.name = "menu-outline"), list.classList.remove('mt-[100px]'), list.classList.remove('opacity-100'), list.classList.add('mt-[-1000px]'), list.classList.add('opacity-0'))
 }
