@@ -19,7 +19,7 @@
     <header>
       <nav class="z-[100] w-full">
         <div
-          class="fixed w-full justify-between lg:items-center p-10 text-lg z-[2] bg-primary top-0"
+          class="fixed w-full justify-between lg:items-center p-10 text-lg z-[99] bg-primary top-0"
         >
           <div class="flex items-center justify-between lg:mx-24 md:px-8">
             <a href="" class="text-2xl font-bold md:text-3xl"
@@ -94,7 +94,8 @@
     <!-- NAVBAR END -->
 
     <!-- HERO SECTION START -->
-    <section id="home" class="flex h-screen w-full items-center md:px-[10%] px-[5%] py-0 justify-center md:justify-start">
+    <section id="home" class="flex h-screen w-full bg-[url(/dist/images/bg.png)] bg-cover bg-right bg-no-repeat">
+      <div class=" flex h-screen w-full items-center md:px-[10%] px-[5%] py-0 justify-center md:justify-start z-[2] lg:z-[1]">
       <div class="text-center md:text-left mt-[100px] max-w-screen-xl">
         <h1 class="mb-3 text-2xl font-bold md:text-3xl">
           Hello, I'm Septian Adhitya Nugroho
@@ -117,6 +118,8 @@
           >
         </div>
       </div>
+    </div>
+    <div class="absolute lg:bg-transparent w-full h-full duration-[3s] opacity-80 flex max-w-screen-md right-0 lg:hover:bg-primary bg-primary z-[1]"></div>
     </section>
     <!-- HERO SECTION END -->
 
@@ -125,7 +128,7 @@
       <div class="flex flex-wrap items-center justify-center w-full h-screen max-w-screen-xl">
         <img
           class="w-[300px] rounded-full"
-          src="dist/images/profile.png"
+          src="dist/images/photo.png"
           alt=""
         />
         <div class="flex flex-col lg:ml-[50px]">
